@@ -5923,8 +5923,8 @@
 						}
 					},
 					"optional": true,
-					"documentation": "Tags for this code action.\n\n@since 3.18.0 - proposed",
-					"since": "3.18.0 - proposed"
+					"documentation": "Tags for this code action.\n\n@since 3.18.0",
+					"since": "3.18.0"
 				}
 			],
 			"documentation": "A code action represents a change that can be performed in code, e.g. to fix a problem or\nto refactor code.\n\nA CodeAction must set either `edit` and/or a `command`. If both are supplied, the `edit` is applied first, then the `command` is executed."
@@ -7140,9 +7140,9 @@
 					"name": "uri",
 					"type": {
 						"kind": "base",
-						"name": "string"
+						"name": "DocumentUri"
 					},
-					"documentation": "A file:// URI for the location of the file/folder being created."
+					"documentation": "A URI for the location of the file/folder being created."
 				}
 			],
 			"documentation": "Represents information on a file/folder create.\n\n@since 3.16.0",
@@ -7374,17 +7374,17 @@
 					"name": "oldUri",
 					"type": {
 						"kind": "base",
-						"name": "string"
+						"name": "DocumentUri"
 					},
-					"documentation": "A file:// URI for the original location of the file/folder being renamed."
+					"documentation": "A URI for the original location of the file/folder being renamed."
 				},
 				{
 					"name": "newUri",
 					"type": {
 						"kind": "base",
-						"name": "string"
+						"name": "DocumentUri"
 					},
-					"documentation": "A file:// URI for the new location of the file/folder being renamed."
+					"documentation": "A URI for the new location of the file/folder being renamed."
 				}
 			],
 			"documentation": "Represents information on a file/folder rename.\n\n@since 3.16.0",
@@ -7397,9 +7397,9 @@
 					"name": "uri",
 					"type": {
 						"kind": "base",
-						"name": "string"
+						"name": "DocumentUri"
 					},
-					"documentation": "A file:// URI for the location of the file/folder being deleted."
+					"documentation": "A URI for the location of the file/folder being deleted."
 				}
 			],
 			"documentation": "Represents information on a file/folder delete.\n\n@since 3.16.0",
@@ -15001,8 +15001,8 @@
 					"documentation": "Marks the code action as LLM-generated."
 				}
 			],
-			"documentation": "Code action tags are extra annotations that tweak the behavior of a code action.\n\n@since 3.18.0 - proposed",
-			"since": "3.18.0 - proposed"
+			"documentation": "Code action tags are extra annotations that tweak the behavior of a code action.\n\n@since 3.18.0",
+			"since": "3.18.0"
 		},
 		{
 			"name": "TraceValue",
